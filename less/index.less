@@ -1,0 +1,162 @@
+@import url("px2rem.less");
+
+// 菜单栏 
+.mmm_content .mmm_nav{
+    margin-top:10*@base; 
+    background-color: #fff;
+    width: 100%;
+    
+  
+    ul{
+        overflow: hidden;
+        
+         >li{
+        width: 25%;
+        float: left;
+        padding-top: 20*@base;
+        padding-bottom: 10*@base;
+        >a{
+            display: block;
+            text-align: center;
+                >img{
+                    display: block;
+                    margin: 0 auto;
+                    width: 60*@base;
+                    height: 60*@base;
+                }
+                >p{
+                    padding-top:5*@base;
+                    color: #000;
+                    font-weight: 400; 
+                }
+            }
+        }
+    }
+    .contains{
+      height: 210*@base;
+  }
+}
+
+// 折扣推荐
+
+.mmm_recommend{
+    .recommend_top{
+        width: 100%;
+        height: 35*@base;
+        background-color: #ff9c1d;
+        margin-top:10*@base; 
+        .left_text{
+            font-size: 18*@base;
+            color: #fff;
+            line-height: 35*@base;
+            padding-left: 10*@base;
+             float:left;
+             display: block;
+        }
+        .right_cirece{
+            width: 20*@base;
+            height: 20*@base;
+            // background-color: red;
+            border-radius:50%;
+            border:1px solid #fff;
+            float: right;
+            color: #fff;
+            font-size: 16*@base;
+            text-align: center;
+            margin:10*@base;
+           
+        }
+    }
+
+    >ul{
+        >li{
+            >a{
+                display: block;
+                background-color: #fff;
+                border-bottom: 1px solid #ccc;
+                .recommend_left{
+                    float: left;
+                    width: 90*@base;
+                    height: 105*@base;
+                    // background-color: pink;
+                    margin: 20*@base 10*@base; 
+                    >img{
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .recommend_right{
+                 float: right;
+                    .describe{
+                        display: block;
+                        margin: 10*@base;
+                        width: 240*@base;
+                             .recommend_describe{
+                                 color: #000;
+                                 font-size: 14*@base;
+                                 font-weight: 400;
+                             }
+                             .cost{
+                                 color: orange;
+                                      font-size: 14*@base;
+                             font-weight: 400;
+                             }     
+                    }
+                    .comment{
+                        margin:10*@base;
+                        margin-top: 50*@base;
+                        color: #666;
+                       
+                        .evaluate{
+                            float: right;
+                        }              
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// 更多优惠
+.mmm_favorable{
+    margin: 10*@base;
+    >a{
+        display: block;
+        width: 100%;
+        height: 30*@base;
+        text-align: center;
+        line-height: 30*@base;
+        background-color: #f7f7f7;
+        border:1px solid #ccc;
+        color: #000;
+    }
+}
+
+// 底部推荐商品
+.mmm_footer .mm_brond{
+    height: 35*@base;
+    width: 100%;
+    background-color: orange;
+    margin-bottom: 25*@base;
+    >span{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 35*@base;
+        padding-left: 10*@base;
+    }
+    .brond_right{
+        float: right;
+        width: 20*@base;
+        height: 20*@base;
+        margin-top: 7*@base;
+        margin-right:10*@base;
+        >img{
+            width: 100%;
+            height: 100%;
+
+        }
+    }
+}

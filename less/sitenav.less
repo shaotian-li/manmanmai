@@ -1,0 +1,74 @@
+@import url("px2rem.less");
+.mmm_content{
+    background-color: #fff;
+}
+ .mmm_content .mmm_topbar{
+     background-color: orange;
+        .mmm_logo1{
+            width: 30*@base;
+            height: 30*@base;
+            float: left;
+            padding-top: 10*@base;
+            padding-left: 20*@base;
+           >a{
+                display: block;
+                width: 100%;
+                height: 100%;
+                >img{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+           }
+        }
+        .mmm_logo_center{
+           font-size: 20*@base;
+           float: left;
+            >p{
+                color: #fff;
+                line-height: 50*@base;
+                padding-left: 80*@base;
+            }
+        }
+        .mmm_app{
+            float: right;
+        }
+}
+
+
+// 内容
+.mmm_mian{
+    background-color: #fff;
+    >ul{
+        margin-top: 20*@base;
+        margin-left: 40*@base;
+        margin-right:40*@base;
+        >li{
+            float: left;
+            margin-left: 10*@base;
+            margin-bottom: 10*@base;
+            background-color: #f4f4f4;
+            >a{
+                display: block;
+                height: 43*@base;
+                border: 1*@base solid #ccc;
+                text-align: center;
+                line-height: 43*@base;
+                >img{
+                    display: block;
+                    float: left;
+                    margin-top: 15*@base;
+                    margin-left: 10*@base;
+                }
+                >p{
+                    float: right;
+                    font-size: 14*@base;
+                    color: #000;
+                    padding-left: 10*@base;
+                    padding-right: 10*@base;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

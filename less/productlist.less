@@ -1,0 +1,109 @@
+@import url("px2rem.less");
+
+
+.mmm_main{
+    .screen{
+        height: 35*@base;
+        // width: 100%;
+        border: 1px solid #ccc;
+        .screen_left{
+            float: left;
+            line-height: 35*@base;
+            
+            >a{
+                float: left;
+                display: block;
+                text-align: center;
+                padding-left: 5*@base;
+                color: #000;
+                font-size: 14*@base;
+                
+            }
+            >p{
+                float: left;
+            }
+        }
+        .screen_right{
+            float: right;
+            >button{
+                width:63*@base;
+                height:30*@base; 
+                border-radius: 5*@base;
+                border: 1px solid #ccc;
+                background-color: #e5e5e5;
+                margin-top:3*@base;
+                margin-right:10*@base;
+            }
+        }
+    }
+    .product_box{
+        
+        >a{
+            border-bottom: 1px solid #ccc;
+            display: block;
+            background-color: #fff;
+            .product_img{
+                width: 100*@base;
+                height: 90*@base;
+                float: left;
+                margin: 10*@base;
+                >img{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .product_content{
+               padding-top: 20*@base; 
+                .describe{
+                    color: #000;
+                    font-weight: 400;
+                }
+                .price{
+                    color: red;
+                    padding-top: 10*@base;
+                    font-size: 14*@base;
+                }
+                >p{
+                    padding-top:10*@base; 
+                    >span{
+                        color: #ccc;
+                    }
+                }
+            }
+        }
+    }
+    .choose{
+    width: 100%;
+    height: 55*@base;
+    background-color: #fff;
+    .previous_page,
+    .next_page{
+        width: 80*@base;
+        height: 35*@base;
+        border-radius: 5*@base;
+        border: 1px solid #ccc;
+        background-color: #e2e2e2;
+         outline:medium;
+    }
+
+
+    .previous_page{
+       
+        margin-left:20*@base;
+        margin-top:10*@base; 
+    }
+    .next_page{
+        margin-left: 30*@base;
+    }
+    >select{
+        margin-left: 30*@base;
+        width: 85*@base;
+        height: 30*@base;
+         outline:medium;
+        >option{
+
+        }
+    }
+}
+}

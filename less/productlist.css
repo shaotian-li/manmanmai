@@ -1,0 +1,92 @@
+.mmm_main .screen {
+  height: 0.933345rem;
+  border: 1px solid #ccc;
+}
+.mmm_main .screen .screen_left {
+  float: left;
+  line-height: 0.933345rem;
+}
+.mmm_main .screen .screen_left > a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 0.133335rem;
+  color: #000;
+  font-size: 0.373338rem;
+}
+.mmm_main .screen .screen_left > p {
+  float: left;
+}
+.mmm_main .screen .screen_right {
+  float: right;
+}
+.mmm_main .screen .screen_right > button {
+  width: 1.680021rem;
+  height: 0.80001rem;
+  border-radius: 0.133335rem;
+  border: 1px solid #ccc;
+  background-color: #e5e5e5;
+  margin-top: 0.080001rem;
+  margin-right: 0.26667rem;
+}
+.mmm_main .product_box > a {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  background-color: #fff;
+}
+.mmm_main .product_box > a .product_img {
+  width: 2.6667rem;
+  height: 2.40003rem;
+  float: left;
+  margin: 0.26667rem;
+}
+.mmm_main .product_box > a .product_img > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mmm_main .product_box > a .product_content {
+  padding-top: 0.53334rem;
+}
+.mmm_main .product_box > a .product_content .describe {
+  color: #000;
+  font-weight: 400;
+}
+.mmm_main .product_box > a .product_content .price {
+  color: red;
+  padding-top: 0.26667rem;
+  font-size: 0.373338rem;
+}
+.mmm_main .product_box > a .product_content > p {
+  padding-top: 0.26667rem;
+}
+.mmm_main .product_box > a .product_content > p > span {
+  color: #ccc;
+}
+.mmm_main .choose {
+  width: 100%;
+  height: 1.466685rem;
+  background-color: #fff;
+}
+.mmm_main .choose .previous_page,
+.mmm_main .choose .next_page {
+  width: 2.13336rem;
+  height: 0.933345rem;
+  border-radius: 0.133335rem;
+  border: 1px solid #ccc;
+  background-color: #e2e2e2;
+  outline: medium;
+}
+.mmm_main .choose .previous_page {
+  margin-left: 0.53334rem;
+  margin-top: 0.26667rem;
+}
+.mmm_main .choose .next_page {
+  margin-left: 0.80001rem;
+}
+.mmm_main .choose > select {
+  margin-left: 0.80001rem;
+  width: 2.266695rem;
+  height: 0.80001rem;
+  outline: medium;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>国内折扣</title>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="maximum-dpr=2" name="flexible" />
+    <meta content="modeName=750-12" name="grid" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./lib/lib-flexible-master/build/flexible.debug.js"></script>
+    <link rel="stylesheet" href="./less/common.css">
+    <link rel="stylesheet" href="./less/discountproduct.css">
+
+</head>
+
+<body>
+    <div class="mmm_content">
+        <!-- 顶栏 -->
+        <div class="mmm_topbar clearfix">
+            <div class="mmm_logo1">
+                <a href="javascript:history.go(-1);"><img src="./images/back.png" alt=""></a>
+            </div>
+            <div class="mmm_logo_center">
+                <p>国内折扣</p>
+            </div>
+            <div class="mmm_app">
+                <img src="./images/header_app.png" alt="">
+            </div>
+        </div>
+
+        <!-- 产品详情-->
+        <div class="details">
+
+            <!-- 挖个坑 -->
+            <!-- 评论 -->
+            <!-- <div class="tit">↵ 发表评论</div>↵
+            <div class="reply">↵
+                <div class="form">↵ <textarea name="ctl00$ContentBody$txt_nr" id="ctl00_ContentBody_txt_nr" rows="3"></textarea>↵ <input name="ctl00$ContentBody$lbl_fbr"
+                        id="ctl00_ContentBody_lbl_fbr" value="手机端网友58***74" type="hidden">↵ <input name="ctl00$ContentBody$hid_name"
+                        id="ctl00_ContentBody_hid_name" value="菲比纸尿裤秒吸舒爽大号L162片婴儿尿不湿超薄透气男女宝宝通用官方正品" type="hidden">↵
+                    <div class="ctrl">↵ <input name="ctl00$ContentBody$Button1" value="发表评论" id="ctl00_ContentBody_Button1" class="tjdp" type="submit">↵
+                    </div>↵ </div>↵ </div>↵
+            <div class="tit" id="newcomment">↵ 最新评论</div>↵
+            <div class="list">↵
+                <ul>↵ ↵ </ul>↵ </div> -->
+        </div>
+
+
+        <!-- 底部 -->
+        <div class="mmm_footer clearfix">
+            <!-- 底部通栏 -->
+
+            <div class="footer_mmm">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="discountproduct.html">
+                    <img src="./images/top.jpg" class="arrows" alt="">
+                    <p>返回顶部</p>
+                </a>
+            </div>
+
+            <div class="mmm_app">
+                <p>
+                    <span>手机app下载</span>
+                    <span>慢慢买手机版--</span>
+                    <span>掌上比价平台</span>
+                </p>
+                <p>m.manmanbuy.com</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/html" id="tpl">
+        {{each result v i}}
+        <div class="prpoduct_details">
+            <p class="describe">{{v.productName}}</p>
+            <p class="details_price">{{v.productPrice}}</p>
+            <p class="time_buying">
+                <span>{{v.productFrom}} {{v.productTime}}</span>
+                <span>chenxin / 慢慢买</span>
+            </p>
+            <p class="details_describe">{{v.productInfo}}</p>
+            {{@v.productImg}}
+        </div>
+        <!-- 前往购买 -->
+        <div class="mmp_purchase">
+            <a href="javascript:;">前往购买</a>
+        </div>
+
+        <!-- 二维码 -->
+        <div class="ewm">
+            <img src="./images/mmbweixin2.png" alt="">
+        </div>
+
+        <!-- 评论 -->
+        {{@v.productComment}}
+        {{/each}}
+
+    </script>
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <script src="./js/common/Route.js"></script>
+    <script src="./js/discountproduct.js"></script>
+
+</html>
+
+
+<!-- 完成 -->

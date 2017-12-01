@@ -1,0 +1,56 @@
+.mmm_main {
+  background-color: #fff;
+}
+.screen {
+  height: 0.933345rem;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+.screen .screen_left {
+  float: left;
+  line-height: 0.933345rem;
+}
+.screen .screen_left > a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 0.133335rem;
+  color: #000;
+  font-size: 0.373338rem;
+}
+.screen .screen_left > p {
+  float: left;
+  color: #000;
+}
+.brand_ranking {
+  width: 97%;
+  height: 1.040013rem;
+  border: 1px solid #ccc;
+  margin: 0.26667rem 0.133335rem;
+  background-color: #eeeeee;
+}
+.brand_ranking > a {
+  display: block;
+  padding-left: 0.26667rem;
+  line-height: 1.040013rem;
+  color: #945d2c;
+  font-size: 0.373338rem;
+}
+.classify {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.53334rem;
+}
+.classify > li {
+  height: 0.986679rem;
+  border-bottom: 1px solid #666;
+}
+.classify > li > a {
+  display: block;
+  line-height: 0.986679rem;
+  padding-left: 0.53334rem;
+  font-size: 0.373338rem;
+  color: #000;
+  font-weight: 600;
+  background-color: #ededed;
+}

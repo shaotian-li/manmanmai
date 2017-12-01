@@ -1,0 +1,83 @@
+@import url("px2rem.less");
+
+.screen{
+    height: 35*@base;
+  
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    .screen_left{
+        float: left;
+        line-height: 35*@base;
+        
+        >a{
+            float: left;
+            display: block;
+            text-align: center;
+            padding-left: 5*@base;
+            color: #000;
+            font-size: 14*@base;
+            
+        }
+        >p{
+            float: left;
+            color: #000;
+        }
+    }
+}
+
+
+.brand_ranking{
+    height: 33*@base;
+    border: 1px solid #ccc;
+    background-color: #eeeeee;
+    >a{
+        display: block;
+        padding-left: 10*@base;
+        line-height: 33*@base;
+        color: #945d2c;
+        font-size: 12*@base;
+    }    
+}
+
+//详情 
+.details{
+    background-color: #fff;
+    >li{
+        background:url("../images/arrow-right.svg") no-repeat;
+        background-size: 18*@base;
+        background-position: right center;    
+        border-bottom:1px solid #ccc;
+        >a{
+
+            display: block;
+            padding-top: 10*@base;
+            padding-left: 20*@base;
+            
+            .rangking{
+                width: 20*@base;
+                height: 20*@base;
+                background-color: red;
+                text-align: center;
+                line-height: 20*@base;
+                color: #fff;
+                position: absolute;
+                display: inline-block
+            }
+           .block{
+                display: inline-block;
+                padding-left: 30*@base;
+                .name{
+                    color: #000;
+                    font-size: 14*@base;
+                    font-weight: 600;
+                }
+                .quantity{
+                    padding-top: 10*@base;
+                    color: #ccc;
+                    font-size: 12*@base;
+                    padding-bottom: 10*@base;
+                }
+           }
+        }
+    }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>慢慢买主页</title>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="maximum-dpr=2" name="flexible" />
+    <meta content="modeName=750-12" name="grid" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./lib/lib-flexible-master/build/flexible.debug.js"></script>
+    <link rel="stylesheet" href="./less/common.css">
+    <link rel="stylesheet" href="./less/index.css">
+</head>
+
+<body>
+    <div class="mmm_content">
+        <!-- 顶栏 -->
+        <div class="mmm_topbar clearfix">
+            <div class="mmm_logo">
+                <a href="index.html">
+                    <img src="./images/header_logo.png" alt="">
+                </a>
+            </div>
+            <div class="mmm_app">
+                <img src="./images/header_app.png" alt="">
+            </div>
+        </div>
+        <!-- 搜索框 -->
+        <div class="mmm_search">
+            <input type="search" placeholder="请输入你想比价的商品">
+            <input type="button" value="搜索">
+        </div>
+        <!-- 内容区域 -->
+<div class="mmm_nav">
+            <!-- 挖个坑 -->
+        </div>
+
+        <!-- 折扣推荐 -->
+        <div class="mmm_recommend">
+            <div class="recommend_top clearfix">
+                <div class="left_text">
+                    超值折扣推荐
+                </div>
+                <div class="right_cirece"> ></div>
+            </div>
+            <ul class="recommend_commodity">
+                <!-- 挖个坑 -->
+            </ul>
+        </div>
+
+        <!-- 更多优惠 -->
+        <div class="mmm_favorable">
+            <a href="moneyctrl.html">更多优惠信息>></a>
+        </div>
+
+        <!-- 底部 -->
+        <div class="mmm_footer clearfix">
+            <div class="mm_brond">
+                <span>品牌推荐</span>
+               <div class="brond_right">
+                    <img src="./images/more.png" alt="">
+               </div>
+            </div>
+
+            <!-- 底部通栏 -->
+            <div class="footer_mmm">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="index.html">
+                    <img src="./images/top.jpg" class="arrows" alt="">
+                    <p>返回顶部</p>
+                </a>
+            </div>
+            
+            <div class="mmm_app">
+                <p>
+                    <span>手机app下载</span>
+                    <span>慢慢买手机版--</span>
+                    <span>掌上比价平台</span>
+                </p>
+                <p>m.manmanbuy.com</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/html" id="tpl">
+        <ul class="clearfix contains">
+            {{each result v i}}
+            <li data-id="{{v.indexmenuId}}">
+                <a href="{{v.titlehref}}">
+                       {{@v.img}}
+                        <p>{{v.name}}</p>
+                    </a>
+            </li>
+            {{/each}}
+        </ul>
+    </script>
+    <!-- 折扣推荐 -->
+    <script type="text/html" id="tpl2">
+        {{each result v i}}
+        <li class="clearfix">
+            <a href="moneyctrlproduct.html?productid={{v.productId}}" class="clearfix">
+                <div class="recommend_left">
+                 {{@v.productImg2}}
+                </div>
+                <div class="recommend_right">
+                    <p class="describe">
+                        <span class="recommend_describe">{{v.productName}}</span>
+                        <span class="cost">{{v.productPinkage}}</span>
+                    </p>
+                    <p class="comment">
+                        <span>京东商城|{{v.productTime}}</span>
+                        <span class="evaluate">{{v.productComCount}}</span>
+                    </p>
+                </div>
+            </a>
+        </li>
+        {{/each}}
+    </script>
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/common/Route.js"></script>
+
+</html>
+

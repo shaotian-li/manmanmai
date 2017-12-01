@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+.mmm_topbar .mmm_logo1 {
+  width: 1.33335rem;
+  height: 1.200015rem;
+  float: left;
+  padding-top: 0.26667rem;
+  padding-left: 0.53334rem;
+}
+.mmm_topbar .mmm_logo1 > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mmm_topbar .mmm_logo1 > a > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mmm_topbar .mmm_logo_center {
+  font-size: 0.53334rem;
+  float: left;
+}
+.mmm_topbar .mmm_logo_center > p {
+  color: #fff;
+  line-height: 1.33335rem;
+  padding-left: 2.13336rem;
+}
+.mmm_topbar .mmm_app {
+  float: right;
+}
+.details {
+  background-color: #fff;
+}
+.details .details_content {
+  padding-left: 0.26667rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.details .details_content .details_name {
+  padding-top: 0.53334rem;
+  color: #000;
+  font-size: 0.373338rem;
+  font-weight: 600;
+}
+.details .details_content .details_time {
+  padding-top: 0.53334rem;
+  padding-bottom: 0.53334rem;
+}
+.details .details_content .particulars > p {
+  width: 60%;
+  float: left;
+  font-size: 0.320004rem;
+}
+.details .details_content .particulars > img {
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+.details .details_content .mmp_abstract {
+  padding-top: 0.26667rem;
+  font-size: 0.320004rem;
+}
+.details .details_content > img {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.53334rem;
+}
+#disstorck {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  width: 4.00005rem;
+  margin: 0 auto;
+}
+#disstorck > li {
+  border-bottom: 1px dashed #ccc;
+  width: 4.00005rem;
+  height: 0.53334rem;
+}
+#disstorck > li span {
+  padding-left: 0.26667rem;
+  color: #000;
+  line-height: 0.53334rem;
+  font-weight: 400;
+}
+#disstorck > li strong {
+  float: right;
+  padding-right: 0.26667rem;
+  color: orange;
+}
+.mmp_purchase {
+  width: 90%;
+  height: 0.80001rem;
+  margin: 0.133335rem 0.53334rem;
+  border-radius: 0.133335rem;
+  background: orange;
+}
+.mmp_purchase > a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 0.80001rem;
+  color: #fff;
+}
+.ewm {
+  width: 95%;
+  margin: 0.80001rem 0.26667rem;
+}
+.ewm > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.tit {
+  color: #000;
+  font-weight: 600;
+  padding-left: 0.26667rem;
+  font-size: 0.373338rem;
+}
+.reply {
+  width: 100%;
+  height: 2.6667rem;
+  padding: 0.26667rem;
+  position: relative;
+}
+.reply .form > textarea {
+  width: 95%;
+  height: 2.186694rem;
+  border-top: 1px solid #ccc;
+  outline: none;
+}
+.reply .ctrl {
+  position: absolute;
+  right: 0.720009rem;
+  bottom: 0.240003rem;
+  width: 90%;
+  height: 1.06668rem;
+  background-color: #fbfbfb;
+}
+.reply .ctrl > input {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 2.6667rem;
+  background-color: #ff841d;
+  border: 1px solid #ff841d;
+  color: #fff;
+  outline: none;
+}
+#newcomment {
+  margin-bottom: 0.53334rem;
+}
+.list > ul .ul-border-b::before {
+  display: block;
+  content: "";
+  clear: both;
+}
+.list > ul .ui-border-b {
+  padding-bottom: 0.80001rem;
+}
+.list > ul .ui-border-b .userimg {
+  float: left;
+  padding-left: 0.26667rem;
+  width: 1.06668rem;
+  height: 1.06668rem;
+  display: block;
+}
+.list > ul .ui-border-b .userimg > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.list > ul .ui-border-b .con {
+  position: relative;
+}
+.list > ul .ui-border-b .con .name .username {
+  float: left;
+  color: blue;
+  padding-left: 0.26667rem;
+}
+.list > ul .ui-border-b .con .name .time {
+  float: right;
+  padding-right: 0.53334rem;
+  color: #ccc;
+}
+.list > ul .ui-border-b .con .content {
+  position: absolute;
+  top: 0.53334rem;
+  left: 1.60002rem;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

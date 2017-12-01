@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>优惠券</title>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="maximum-dpr=2" name="flexible" />
+    <meta content="modeName=750-12" name="grid" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./lib/lib-flexible-master/build/flexible.debug.js"></script>
+    <link rel="stylesheet" href="./less/common.css">
+    <link rel="stylesheet" href="./less/couponproduct.css">
+
+</head>
+
+<body>
+
+
+    <div class="mmm_content">
+        <!-- 顶栏 -->
+        <div class="mmm_topbar clearfix">
+            <div class="mmm_logo1">
+                <a href="javascript:history.go(-1);"><img src="./images/back.png" alt=""></a>
+            </div>
+            <div class="mmm_logo_center">
+                <p>肯德基优惠券</p>
+            </div>
+            <div class="mmm_app">
+                <img src="./images/header_app.png" alt="">
+            </div>
+        </div>
+
+        <!-- 内容-->
+        <div class="kfc_headline">
+            <!-- 挖个坑 -->
+
+        </div>
+        <!-- 底部 -->
+        <div class="mmm_footer clearfix">
+            <!-- 底部通栏 -->
+
+            <div class="footer_mmm">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="#">
+                    <img src="./images/top.jpg" class="arrows" alt="">
+                    <p>返回顶部</p>
+                </a>
+            </div>
+
+            <div class="mmm_app">
+                <p>
+                    <span>手机app下载</span>
+                    <span>慢慢买手机版--</span>
+                    <span>掌上比价平台</span>
+                </p>
+                <p>m.manmanbuy.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mmm_mengceng">
+    <img src="http://d3.5ikfc.com/static/thumbs/1016/kfc-5ikfc-108_pc27.jpg" alt=" 两人小食组 新奥尔良烤翅2块+薯条(中)+黄金鸡块5块+劲爆鸡米花(小) 2016年10月凭肯德基优惠券">
+    </div>
+
+    <script type="text/html" id="tpl">
+        {{each result v i}}
+        <p>点餐前出示手机中的优惠券，即可享受优惠</p>
+        <div class="kfc_particulars">
+            <a href="#" class="clearfix">
+                <div class="left_img">
+                    {{@v.couponProductImg}}
+                </div>
+                <div class="right_particulars">
+                    <p class="kfc_details">{{v.couponProductName}}</p>
+                    <p class="kfc_price">{{v.couponProductPrice}}</p>
+                    <p class="kfc_time">{{v.couponProductTime}}</p>
+                </div>
+            </a>
+        </div>
+        {{/each}}
+    </script>
+
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <script src="./js/common/Route.js"></script>
+    <script src="./js/couponproduct.js"></script>
+
+</html>
+
+
+<!-- 完成 -->

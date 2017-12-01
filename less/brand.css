@@ -1,0 +1,72 @@
+.screen {
+  height: 0.933345rem;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+.screen .screen_left {
+  float: left;
+  line-height: 0.933345rem;
+}
+.screen .screen_left > a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 0.133335rem;
+  color: #000;
+  font-size: 0.373338rem;
+}
+.screen .screen_left > p {
+  float: left;
+  color: #000;
+}
+.brand_ranking {
+  height: 0.880011rem;
+  border: 1px solid #ccc;
+  background-color: #eeeeee;
+}
+.brand_ranking > a {
+  display: block;
+  padding-left: 0.26667rem;
+  line-height: 0.880011rem;
+  color: #945d2c;
+  font-size: 0.320004rem;
+}
+.details {
+  background-color: #fff;
+}
+.details > li {
+  background: url("../images/arrow-right.svg") no-repeat;
+  background-size: 0.480006rem;
+  background-position: right center;
+  border-bottom: 1px solid #ccc;
+}
+.details > li > a {
+  display: block;
+  padding-top: 0.26667rem;
+  padding-left: 0.53334rem;
+}
+.details > li > a .rangking {
+  width: 0.53334rem;
+  height: 0.53334rem;
+  background-color: red;
+  text-align: center;
+  line-height: 0.53334rem;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+}
+.details > li > a .block {
+  display: inline-block;
+  padding-left: 0.80001rem;
+}
+.details > li > a .block .name {
+  color: #000;
+  font-size: 0.373338rem;
+  font-weight: 600;
+}
+.details > li > a .block .quantity {
+  padding-top: 0.26667rem;
+  color: #ccc;
+  font-size: 0.320004rem;
+  padding-bottom: 0.26667rem;
+}

@@ -1,0 +1,158 @@
+@import url("px2rem.less");
+
+
+
+// 头部
+ .mmm_content .mmm_topbar{
+     background-color: orange;
+        .mmm_logo1{
+            width: 30*@base;
+            height: 30*@base;
+            float: left;
+            padding-top: 10*@base;
+            padding-left: 20*@base;
+           >a{
+                display: block;
+                width: 100%;
+                height: 100%;
+                >img{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+           }
+        }
+        .mmm_logo_center{
+           font-size: 20*@base;
+           float: left;
+            >p{
+                color: #fff;
+                line-height: 50*@base;
+                padding-left: 100*@base;
+            }
+        }
+        .mmm_app{
+            float: right;
+        }
+}
+
+// 导航栏
+.nav{
+    position: relative;
+    .nav_content{
+        >li{
+            float: left;
+            height: 37*@base;
+            width: 33.33%;
+            >a{          
+                display: block;
+                text-align: center;
+                line-height: 37*@base;
+                color: #000;
+            }            
+        }
+    }
+
+    .one_block{
+        background-color: #fff;
+        width: 100%;
+        border-top: 1px solid #ccc;
+        display: none;
+        position: absolute;
+        buttom:0;
+        z-index: 111;
+        >ul{
+            >li{
+                height: 35*@base;
+                line-height: 35*@base;
+                border-bottom: 1px solid #ccc;
+                >a{
+                    display: block;
+                    padding-left: 10*@base;
+                    color: #000;
+                    font-size: 12*@base;
+                }
+            }
+        }
+    }
+    .two_block{
+        background-color: #fff;
+        width: 100%;
+        border-top: 1px solid #ccc;
+        display: none;
+        position: absolute;
+        buttom:0;
+        z-index: 11111;
+        >ul{
+            >li{
+                height: 35*@base;
+                line-height: 35*@base;
+                border-bottom: 1px solid #ccc;
+                >a{
+                    display: block;
+                    padding-left: 10*@base;
+                    color: #000;
+                    font-size: 12*@base;
+                }
+            }
+        }
+    }
+    .now{
+        display: block;
+    }
+}
+
+
+.mmp_content{
+   
+    >ul{
+    
+        >li{
+             background-color: #fff;
+            float: left;
+            width: 47%;
+            margin: 10*@base 5*@base; 
+            >img{
+                display: block;
+                height: 175*@base;
+                width: 100%;
+                padding: 0 20*@base;
+                box-sizing: border-box;
+            }
+            >p{
+                padding-left:10*@base; 
+                font-weight: 600;
+                font-weight: 12*@base;
+                overflow:hidden;
+                text-overflow:ellipsis;
+                -o-text-overflow:ellipsis;
+                -webkit-text-overflow:ellipsis;
+                -moz-text-overflow:ellipsis;
+                white-space:nowrap;
+            }
+            .price{
+
+                padding-top: 10*@base;
+                >p{
+                    display: inline-block;
+                    padding-left: 10*@base;
+                    color: orange;
+                    font-size: 14*@base;
+                }
+                >a{
+                    display: inline-block;
+                    float: right;
+                    width: 60*@base;
+                    height: 22*@base;
+                    background-color: orange;
+                    text-align: center;
+                    line-height: 22*@base;
+                    color: #fff;
+                    border-radius: 5*@base;
+                    margin-bottom: 5*@base;
+                    margin-right: 5*@base;
+                }
+            }
+        }
+    }
+}

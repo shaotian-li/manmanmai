@@ -1,0 +1,188 @@
+@import url(px2rem.less);
+
+
+.mmm_main{
+   background-color: #fff;
+    .screen{
+        height: 35*@base;
+        // width: 100%;
+        border: 1px solid #ccc;
+        .screen_left{
+            float: left;
+            line-height: 35*@base;
+            
+            >a{
+                float: left;
+                display: block;
+                text-align: center;
+                padding-left: 5*@base;
+                color: #000;
+                font-size: 14*@base;
+                
+            }
+            >p{
+                float: left;
+            }
+        }
+        .screen_right{
+            float: right;
+            >button{
+                width:63*@base;
+                height:30*@base; 
+                border-radius: 5*@base;
+                border: 1px solid #ccc;
+                background-color: #e5e5e5;
+                margin-top:3*@base;
+                margin-right:10*@base;
+            }
+        }
+    }
+
+    //详情
+    .details_box{
+        width: 100%;
+        background-color: #fff;
+        >p{
+            padding: 20*@base 20*@base 0;
+            font-size: 14*@base;
+            font-weight: 600;
+            text-align: center;
+        }
+        .img_box{
+            padding: 20*@base;
+            >img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .goumai{
+
+            >a{
+                display: block;
+                float: left;
+                width: 33.33%;
+                text-align: center;
+                height: 35*@base;
+                line-height: 35*@base;
+                border:1px solid orange;
+                box-sizing: border-box;
+                background-color: #ffc834;
+                color: #fff;
+            }
+            >a:nth-child(1){
+                background-color: #ff9d1e;
+            }
+        }
+        >table{
+            height: 45*@base;
+            position: relative;
+            border-bottom: 1px solid #ccc;
+            >tbody{
+                
+                >tr{
+                   >td{
+                       >a{
+                           display: block;
+                           position: absolute;
+                           top: 15*@base;
+                           left: 30*@base;
+                           color: #000;
+                           font-size: 14*@base;
+                           font-weight: 600;
+                           >img{
+                            display: block;
+                            position: absolute;
+                            left:-15*@base;
+                            top:5*@base;
+                           }
+                       }
+                   } 
+                   .red{
+                       color: red;
+                       float: right;
+                       padding-top: 10*@base;
+                       padding-right: 10*@base;
+                       font-size: 14*@base;
+                   }    
+                }
+            }
+        }
+        .describe{
+            height: 40*@base;
+            // text-align: center;
+            // line-height: 50*@base;
+            padding-left: 20*@base;
+            padding-top: 10*@base;
+            color: #666;
+            border-bottom: 4px solid #ccc;
+        }
+    } 
+
+    // 评价
+    .mmp_evaluate{
+        >a{
+            display: block;
+            height: 33*@base;
+            text-align: center;
+            line-height: 33*@base;
+            color: #000;
+            font-weight: 600;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            margin-top:5*@base; 
+            background-color: #dbdbdb;
+        }
+    }
+
+    // 评价内容
+    .evaluate{
+        padding-left: 10*@base;
+        padding-top:10*@base;
+        padding-right: 10*@base;
+    
+       
+        .name{
+            padding-top: 10*@base;
+            color:#666;
+            >span:nth-child(2){
+                float: right;
+                padding-right: 20*@base;
+            }
+        }
+        .mmm_jd{
+           float: right;
+            color: #666;
+            padding-right: 20*@base;
+            
+        }
+        .evaluate_content{
+            // width: 90%;
+            padding-top:20*@base; 
+            padding-bottom: 5*@base;
+              border-bottom: 1px solid #ccc;
+            font-size: 14*@base;
+            font-weight: 400;
+           
+        }
+    }
+
+    // 查看更多评价
+    .more_evaluation{
+        height: 60*@base;
+        width: 100%;
+        >a{
+            display: block;
+            height: 33*@base;
+            text-align: center;
+           margin:0 auto;
+           margin-top: 10*@base;
+            width: 90%;
+            background-color: #e4e4e4;
+            line-height: 33*@base;
+            border-radius: 5*@base;
+            color: #000;
+            font-weight: 600;
+            font-size: 12*@base;
+        }
+    }
+}

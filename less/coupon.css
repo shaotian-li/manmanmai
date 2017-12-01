@@ -1,0 +1,80 @@
+.mmm_content {
+  background-color: #fff;
+}
+.mmm_content .mmm_topbar {
+  background-color: red;
+}
+.mmm_content .mmm_topbar .mmm_logo1 {
+  width: 0.80001rem;
+  height: 0.80001rem;
+  float: left;
+  padding-top: 0.26667rem;
+  padding-left: 0.53334rem;
+}
+.mmm_content .mmm_topbar .mmm_logo1 > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mmm_content .mmm_topbar .mmm_logo1 > a > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mmm_content .mmm_topbar .mmm_logo_center {
+  font-size: 0.53334rem;
+  float: left;
+}
+.mmm_content .mmm_topbar .mmm_logo_center > p {
+  color: #fff;
+  line-height: 1.33335rem;
+  padding-left: 2.6667rem;
+}
+.mmm_content .mmm_topbar .mmm_app {
+  float: right;
+}
+.mmb_content {
+  margin-bottom: 1.06668rem;
+  background-color: #fff;
+}
+.mmb_content .discount_coupon {
+  margin-top: 0.26667rem;
+  margin-left: 0.26667rem;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  border: 0.026667rem solid #f0f0f0;
+  width: 30%;
+}
+.mmb_content .discount_coupon > a {
+  display: block;
+}
+.mmb_content .discount_coupon > a > img {
+  display: block;
+  width: 1.466685rem;
+  height: 1.466685rem;
+  padding-top: 0.26667rem;
+  margin: 0 auto;
+}
+.mmb_content .discount_coupon > a > p {
+  padding-top: 0.26667rem;
+  color: #000;
+  font-weight: 400;
+  padding-bottom: 0.106668rem;
+}
+.mmm_skip {
+  height: 0.80001rem;
+  margin-bottom: 1.06668rem;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  border-radius: 0.133335rem;
+}
+.mmm_skip > a {
+  float: left;
+  display: block;
+  padding-left: 0.53334rem;
+  line-height: 0.80001rem;
+  color: #000;
+  font-weight: 400;
+  font-size: 0.320004rem;
+}

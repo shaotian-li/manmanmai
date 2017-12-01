@@ -1,0 +1,151 @@
+.mmm_content .mmm_topbar {
+  background-color: red;
+}
+.mmm_content .mmm_topbar .mmm_logo1 {
+  width: 0.80001rem;
+  height: 0.80001rem;
+  float: left;
+  padding-top: 0.26667rem;
+  padding-left: 0.53334rem;
+}
+.mmm_content .mmm_topbar .mmm_logo1 > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mmm_content .mmm_topbar .mmm_logo1 > a > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mmm_content .mmm_topbar .mmm_logo_center {
+  font-size: 0.53334rem;
+  float: left;
+}
+.mmm_content .mmm_topbar .mmm_logo_center > p {
+  color: #fff;
+  line-height: 1.33335rem;
+  padding-left: 1.33335rem;
+}
+.mmm_content .mmm_topbar .mmm_app {
+  float: right;
+}
+.mmp_nav {
+  background-color: #fff;
+  height: 0.933345rem;
+}
+.mmp_nav #mmm_sb {
+  overflow: auto;
+}
+.mmp_nav #mmm_sb > ul {
+  height: 1.33335rem;
+  width: 11.73348rem;
+  overflow: hidden;
+}
+.mmp_nav #mmm_sb > ul > li {
+  overflow: hidden;
+  float: left;
+  line-height: 1.06668rem;
+  margin-left: 0.26667rem;
+}
+.mmp_nav #mmm_sb > ul > li > a {
+  color: #000;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.mmp_nav #mmm_sb > ul .now {
+  border-bottom: 5px solid red;
+}
+.commodity_mmp .mmp_commodity {
+  width: 100%;
+  background-color: #fff;
+}
+.commodity_mmp .mmp_commodity > li {
+  width: 100%;
+}
+.commodity_mmp .mmp_commodity > li .left_img {
+  float: left;
+  width: 3.46671rem;
+  height: 3.46671rem;
+  padding: 0.26667rem;
+}
+.commodity_mmp .mmp_commodity > li .left_img > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_laji {
+  color: #000;
+  font-weight: 600;
+  padding-top: 0.53334rem;
+  font-size: 0.373338rem;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_lj {
+  font-size: 0.373338rem;
+  margin-top: 0.26667rem;
+  color: red;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_lj > i {
+  font-size: 0.320004rem;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_lj > em {
+  padding: 0 0.133335rem;
+  font-size: 0.320004rem;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_lj > del {
+  font-size: 0.320004rem;
+  color: #ccc;
+  text-decoration: line-through;
+}
+.commodity_mmp .mmp_commodity > li .right_content .bar {
+  float: right;
+  margin-right: 3.813381rem;
+  text-align: center;
+  position: relative;
+}
+.commodity_mmp .mmp_commodity > li .right_content .bar > i {
+  display: block;
+  height: 0.53334rem;
+  width: 2.13336rem;
+  border: 1px solid red;
+  border-radius: 2.13336rem;
+  position: relative;
+}
+.commodity_mmp .mmp_commodity > li .right_content .bar > i > em {
+  display: block;
+  background-color: red;
+  height: 0.53334rem;
+  width: 100%;
+  border-radius: 2.13336rem;
+}
+.commodity_mmp .mmp_commodity > li .right_content .bar > i > span {
+  position: absolute;
+  top: 0.080001rem;
+  left: 0.933345rem;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_a {
+  position: relative;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_a > a {
+  height: 0.26667rem;
+  float: left;
+  display: block;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_a > a:nth-child(1) {
+  border: 1px dashed red;
+  line-height: 0.26667rem;
+  color: red;
+  padding: 0.133335rem;
+}
+.commodity_mmp .mmp_commodity > li .right_content .mmp_a > a:nth-child(2) {
+  float: right;
+  margin-right: 0.133335rem;
+  width: 1.466685rem;
+  height: 0.80001rem;
+  background-color: red;
+  text-align: center;
+  line-height: 0.80001rem;
+  color: #fff;
+  border-radius: 0.133335rem;
+}

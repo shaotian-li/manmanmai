@@ -1,0 +1,74 @@
+@import url("px2rem.less");
+
+.mmm_content{
+    .mmm_topbar{
+        .mmm_logo1{
+            width: 30*@base;
+            height: 30*@base;
+            float: left;
+            padding-top: 10*@base;
+            padding-left: 20*@base;
+           >a{
+                display: block;
+                width: 100%;
+                height: 100%;
+                >img{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+           }
+        }
+        .mmm_logo_center{
+           font-size: 20*@base;
+           float: left;
+            >p{
+                color: #fff;
+                line-height: 50*@base;
+                padding-left: 80*@base;
+            }
+        }
+        .mmm_app{
+            float: right;
+        }
+    }
+
+
+    // 商品区域
+    .product{
+        >ul{
+            
+            >li{
+                border-right: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                background-color: #fff;
+                width: 50%;
+                float: left;
+                height: 250*@base;
+                 padding: 10*@base;
+                 box-sizing: border-box;
+             >a{
+                 display: block;
+                    >img{
+                    display: block;
+                    height: 150*@base;
+                    width:170*@base;
+                   
+                }
+                .discount_describe{
+                    color: #000;
+                    font-weight: 600;
+                }
+                .discount_price{
+                    padding-top: 2*@base;
+                    color: #ff841d;
+                }
+                .time_buying{
+                    padding-top: 5*@base;
+                    color: #ccc;
+                }
+             }
+            }
+        }
+    }
+}

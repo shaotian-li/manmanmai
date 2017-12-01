@@ -1,0 +1,155 @@
+.mmm_main {
+  background-color: #fff;
+}
+.mmm_main .screen {
+  height: 0.933345rem;
+  border: 1px solid #ccc;
+}
+.mmm_main .screen .screen_left {
+  float: left;
+  line-height: 0.933345rem;
+}
+.mmm_main .screen .screen_left > a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 0.133335rem;
+  color: #000;
+  font-size: 0.373338rem;
+}
+.mmm_main .screen .screen_left > p {
+  float: left;
+}
+.mmm_main .screen .screen_right {
+  float: right;
+}
+.mmm_main .screen .screen_right > button {
+  width: 1.680021rem;
+  height: 0.80001rem;
+  border-radius: 0.133335rem;
+  border: 1px solid #ccc;
+  background-color: #e5e5e5;
+  margin-top: 0.080001rem;
+  margin-right: 0.26667rem;
+}
+.mmm_main .details_box {
+  width: 100%;
+  background-color: #fff;
+}
+.mmm_main .details_box > p {
+  padding: 0.53334rem 0.53334rem 0;
+  font-size: 0.373338rem;
+  font-weight: 600;
+  text-align: center;
+}
+.mmm_main .details_box .img_box {
+  padding: 0.53334rem;
+}
+.mmm_main .details_box .img_box > img {
+  display: block;
+  margin: 0 auto;
+}
+.mmm_main .details_box .goumai > a {
+  display: block;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  height: 0.933345rem;
+  line-height: 0.933345rem;
+  border: 1px solid orange;
+  box-sizing: border-box;
+  background-color: #ffc834;
+  color: #fff;
+}
+.mmm_main .details_box .goumai > a:nth-child(1) {
+  background-color: #ff9d1e;
+}
+.mmm_main .details_box > table {
+  height: 1.200015rem;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.mmm_main .details_box > table > tbody > tr > td > a {
+  display: block;
+  position: absolute;
+  top: 0.400005rem;
+  left: 0.80001rem;
+  color: #000;
+  font-size: 0.373338rem;
+  font-weight: 600;
+}
+.mmm_main .details_box > table > tbody > tr > td > a > img {
+  display: block;
+  position: absolute;
+  left: -0.400005rem;
+  top: 0.133335rem;
+}
+.mmm_main .details_box > table > tbody > tr .red {
+  color: red;
+  float: right;
+  padding-top: 0.26667rem;
+  padding-right: 0.26667rem;
+  font-size: 0.373338rem;
+}
+.mmm_main .details_box .describe {
+  height: 1.06668rem;
+  padding-left: 0.53334rem;
+  padding-top: 0.26667rem;
+  color: #666;
+  border-bottom: 4px solid #ccc;
+}
+.mmm_main .mmp_evaluate > a {
+  display: block;
+  height: 0.880011rem;
+  text-align: center;
+  line-height: 0.880011rem;
+  color: #000;
+  font-weight: 600;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 0.133335rem;
+  background-color: #dbdbdb;
+}
+.mmm_main .evaluate {
+  padding-left: 0.26667rem;
+  padding-top: 0.26667rem;
+  padding-right: 0.26667rem;
+}
+.mmm_main .evaluate .name {
+  padding-top: 0.26667rem;
+  color: #666;
+}
+.mmm_main .evaluate .name > span:nth-child(2) {
+  float: right;
+  padding-right: 0.53334rem;
+}
+.mmm_main .evaluate .mmm_jd {
+  float: right;
+  color: #666;
+  padding-right: 0.53334rem;
+}
+.mmm_main .evaluate .evaluate_content {
+  padding-top: 0.53334rem;
+  padding-bottom: 0.133335rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.373338rem;
+  font-weight: 400;
+}
+.mmm_main .more_evaluation {
+  height: 1.60002rem;
+  width: 100%;
+}
+.mmm_main .more_evaluation > a {
+  display: block;
+  height: 0.880011rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.26667rem;
+  width: 90%;
+  background-color: #e4e4e4;
+  line-height: 0.880011rem;
+  border-radius: 0.133335rem;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.320004rem;
+}

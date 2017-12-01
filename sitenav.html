@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>白菜价</title>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="maximum-dpr=2" name="flexible" />
+    <meta content="modeName=750-12" name="grid" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./lib/lib-flexible-master/build/flexible.debug.js"></script>
+    <link rel="stylesheet" href="./less/common.css">
+    <link rel="stylesheet" href="./less/sitenav.css">
+
+</head>
+
+<body>
+    <div class="mmm_content">
+        <!-- 顶栏 -->
+        <div class="mmm_topbar clearfix">
+            <div class="mmm_logo1">
+                <a href="javascript:history.go(-1);"><img src="./images/back.png" alt=""></a>
+            </div>
+            <div class="mmm_logo_center">
+                <p>商品导航8</p>
+            </div>
+            <div class="mmm_app">
+                <img src="./images/header_app.png" alt="">
+            </div>
+        </div>
+
+        <!-- 内容-->
+        <div class="mmm_mian">
+            <!-- 挖个坑 -->
+        </div>
+        <!-- 底部 -->
+        <div class="mmm_footer clearfix">
+            <!-- 底部通栏 -->
+
+            <div class="footer_mmm">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="#">
+                    <img src="./images/top.jpg" class="arrows" alt="">
+                    <p>返回顶部</p>
+                </a>
+            </div>
+
+            <div class="mmm_app">
+                <p>
+                    <span>手机app下载</span>
+                    <span>慢慢买手机版--</span>
+                    <span>掌上比价平台</span>
+                </p>
+                <p>m.manmanbuy.com</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/html" id="tpl">
+        <ul class="clearfix">
+            {{each result v i}}
+            <li>
+                <a href="{{v.navHref}}" class="clearfix">
+                    <img src="{{v.navImg}}" alt="">
+                    <p>{{v.navTitle}}</p>
+                </a>
+            </li>
+            {{/each}}
+        </ul>
+
+    </script>
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <script src="./js/common/Route.js"></script>
+    <script src="./js/sitenav.js"></script>
+
+</html>
+
+
+<!-- 完成 -->

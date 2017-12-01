@@ -1,0 +1,38 @@
+.mmm_main {
+  width: 100%;
+}
+.mmm_main .big_box {
+  width: 100%;
+}
+.mmm_main .big_box > li .title {
+  height: 1.013346rem;
+  line-height: 1.013346rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.373338rem;
+  font-weight: 600;
+  padding-left: 0.53334rem;
+}
+.mmm_main .big_box > li .title > a {
+  color: #000;
+}
+.mmm_main .big_box > li .content {
+  width: 100%;
+  display: none;
+}
+.mmm_main .big_box > li .content > ul {
+  background-color: #fff;
+}
+.mmm_main .big_box > li .content > ul > li {
+  float: left;
+  width: 33.33%;
+  height: 1.013346rem;
+  line-height: 1.013346rem;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.mmm_main .big_box > li .content > ul > li > a {
+  color: #000;
+  display: block;
+}
