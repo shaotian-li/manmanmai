@@ -48,12 +48,21 @@
 .details > li > a .rangking {
   width: 0.53334rem;
   height: 0.53334rem;
-  background-color: red;
+  background-color: #ccc;
   text-align: center;
   line-height: 0.53334rem;
   color: #fff;
   position: absolute;
   display: inline-block;
+}
+.details > li > a .rangking.first {
+  background-color: red;
+}
+.details > li > a .rangking.two {
+  background-color: yellow;
+}
+.details > li > a .rangking.three {
+  background-color: blue;
 }
 .details > li > a .block {
   display: inline-block;

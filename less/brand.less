@@ -56,13 +56,23 @@
             .rangking{
                 width: 20*@base;
                 height: 20*@base;
-                background-color: red;
+                background-color: #ccc;
                 text-align: center;
                 line-height: 20*@base;
                 color: #fff;
                 position: absolute;
-                display: inline-block
+                display: inline-block;
+                &.first{
+                    background-color: red;
+                }
+                &.two{
+                    background-color:yellow;
+                }
+                &.three{
+                    background-color: blue;
+                }
             }
+          
            .block{
                 display: inline-block;
                 padding-left: 30*@base;

@@ -84,7 +84,15 @@
             {{each result v i}}
             <li>
                 <a href="productlist.html?brandtitleid={{v.brandTitleId}}">
-                    <div class="rangking">1</div>
+                    {{if i==0}}
+                        <div class='rangking first'>{{i+1}}</div>
+                    {{else if i==1}}
+                    <div class="rangking two">{{i+1}}</div>
+                    {{else if i == 2}}
+                    <div class="rangking three">{{i+1}}</div>
+                    {{else}}
+                    <div class="rangking">{{i+1}}</div>
+                     {{/if}}
                     <div class="block">
                         <div class="name">{{v.brandName}}</div>
                         <p class="quantity">{{v.brandInfo}}</p>
